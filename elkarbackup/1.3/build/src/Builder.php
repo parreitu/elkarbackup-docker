@@ -155,6 +155,11 @@ class Builder extends ContainerAware
                                                       'class'    => 'changePassword',
                                                       'icon'     => '<i class="glyphicon glyphicon-lock"></i><span>'.$t->trans('Change password', array(), 'BinovoElkarBackup').'</span></a>'),
 
+                                                array('label'    => $t->trans('Manage parameters', array(), 'BinovoElkarBackup'),
+                                                      'route'    => 'manageParameters',
+                                                      'class'    => 'manageParameters',
+                                                      'icon'     => '<i class="glyphicon glyphicon-list"></i><span>'.$t->trans('Manage parameters', array(), 'BinovoElkarBackup').'</span></a>'),
+
                                                 array('label'    => $t->trans('Manage backup locations', array(), 'BinovoElkarBackup'),
                                                       'route'    => 'manageBackupLocations',
                                                       'class'    => 'manageBackupLocations',
